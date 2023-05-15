@@ -21,9 +21,17 @@
       "type": "AUTO"
     }
   },
+  "publishedApplicationDetail": {
+    "appPositioning": {
+      "type": "AUTO"
+    }
+  },
   "color": "#F3F1C7",
   "icon": "yen",
   "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
     "type": "FLUID"
   },
   "unpublishedCustomJSLibs": [],
