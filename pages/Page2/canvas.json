@@ -1,0 +1,128 @@
+{
+  "unpublishedPage": {
+    "name": "Page2",
+    "slug": "page2",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 550,
+          "containerStyle": "none",
+          "snapRows": 53,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 79,
+          "minHeight": 550,
+          "useAutoLayout": true,
+          "parentColumnSpace": 1,
+          "responsiveBehavior": "fill",
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "mobileBottomRow": 34,
+              "widgetName": "CategorySlider1",
+              "displayName": "Category Slider",
+              "iconSVG": "/static/media/icon.cbd0db7a0bd317a6e4cbbd72417f8dee.svg",
+              "labelText": "Size",
+              "searchTags": [
+                "range"
+              ],
+              "topRow": 0,
+              "bottomRow": 7,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "type": "CATEGORY_SLIDER_WIDGET",
+              "hideCard": false,
+              "mobileRightColumn": 40,
+              "defaultOptionValue": "md",
+              "animateLoading": true,
+              "parentColumnSpace": 12.59375,
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "shouldTruncate": false,
+              "labelPosition": "Top",
+              "options": [
+                {
+                  "label": "xs",
+                  "value": "xs"
+                },
+                {
+                  "label": "sm",
+                  "value": "sm"
+                },
+                {
+                  "label": "md",
+                  "value": "md"
+                },
+                {
+                  "label": "lg",
+                  "value": "lg"
+                },
+                {
+                  "label": "xl",
+                  "value": "xl"
+                }
+              ],
+              "isDisabled": false,
+              "key": "e5c8bdssa3",
+              "flexVerticalAlignment": "end",
+              "labelTextSize": "0.875rem",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "widgetId": "x876fekbb3",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "sliderSize": "m",
+              "shouldScroll": false,
+              "version": 1,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "mobileTopRow": 26,
+              "responsiveBehavior": "fill",
+              "mobileLeftColumn": 0,
+              "showMarksLabel": true,
+              "alignment": "start"
+            }
+          ],
+          "positioning": "vertical",
+          "flexLayers": [
+            {
+              "children": [
+                {
+                  "id": "x876fekbb3",
+                  "align": "start"
+                }
+              ]
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Page2",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "gitSyncId": "6461d1b1e3878127e50b2f4f_6461d1c9e3878127e50b2f55"
+}
